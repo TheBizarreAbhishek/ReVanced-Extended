@@ -1,5 +1,5 @@
 # YouTube ReVanced-Extended
-This ropo contain revanced extended apps/module
+This repo contain revanced extended apps/module
 Get the [latest CI release](https://github.com/TheBizarreAbhishek/ReVanced-Extended/releases/)
 # Features
   ● Updated with the latest versions of patches.
