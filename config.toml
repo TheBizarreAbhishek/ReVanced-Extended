@@ -35,12 +35,3 @@ included-patches = ""
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/photos"
 arch = "both"
 
-[YouTube-Anddea]
-app-name = "YouTube"
-patches-source = "anddea/revanced-patches"
-integrations-source = "anddea/revanced-integrations"
-rv-brand = "Anddea ReVanced"
-build-mode = "both"
-excluded-patches = "'Custom branding name YouTube'"
-included-patches = "'Visual preferences icons' 'Custom branding icon YouTube' 'Custom package name' 'MaterialYou'"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
