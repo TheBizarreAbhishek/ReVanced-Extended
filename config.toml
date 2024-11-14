@@ -1,28 +1,28 @@
 enable-magisk-update = true   # set this to false if you do not want to receive updates for the module in magisk app
 
 
-[Music-Extended]
-app-name = "Music"
-patches-source = "inotia00/revanced-patches"
-# integrations-source = "inotia00/revanced-integrations"
-cli-source = "inotia00/revanced-cli"
-rv-brand = "ReVanced Extended"
-build-mode = "both"
-excluded-patches = "'Custom branding name YouTube Music' 'Custom branding icon YouTube Music'"
-included-patches = "'Custom package name'"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
-arch = "both"
+#[Music-Extended]
+#app-name = "Music"
+#patches-source = "inotia00/revanced-patches"
+#integrations-source = "inotia00/revanced-integrations"
+#cli-source = "inotia00/revanced-cli"
+#rv-brand = "ReVanced Extended"
+#build-mode = "both"
+#excluded-patches = "'Custom branding name YouTube Music' 'Custom branding icon YouTube Music'"
+#included-patches = "'Custom package name'"
+#apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
+#arch = "both"
 
-[YouTube-Extended]
-app-name = "YouTube"
-patches-source = "inotia00/revanced-patches"
-# integrations-source = "inotia00/revanced-integrations"
-cli-source = "inotia00/revanced-cli"
-rv-brand = "ReVanced Extended"
-build-mode = "both"
-excluded-patches = "'Custom branding name YouTube'"
-included-patches = "'Visual preferences icons' 'Custom branding icon YouTube' 'Custom package name' 'MaterialYou'"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
+#[YouTube-Extended]
+#app-name = "YouTube"
+#patches-source = "inotia00/revanced-patches"
+#integrations-source = "inotia00/revanced-integrations"
+#cli-source = "inotia00/revanced-cli"
+#rv-brand = "ReVanced Extended"
+#build-mode = "both"
+#excluded-patches = "'Custom branding name YouTube'"
+#included-patches = "'Visual preferences icons' 'Custom branding icon YouTube' 'Custom package name' 'MaterialYou'"
+#apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 
 [Photos-ReVanced]
 app-name = "Photos"
