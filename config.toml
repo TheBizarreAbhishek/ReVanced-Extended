@@ -1,43 +1,29 @@
 enable-magisk-update = true   # set this to false if you do not want to receive updates for the module in magisk app
-parallel-jobs = 1 
-compression-level = 9
-remove-rv-integrations-checks = true
-
-[Music-Extended]
-app-name = "Music"
 patches-source = "inotia00/revanced-patches"
 integrations-source = "inotia00/revanced-integrations"
 cli-source = "inotia00/revanced-cli"
-rv-brand = "ReVanced Extended"
-build-mode = "both"
-excluded-patches = "'Custom branding name YouTube Music' 'Custom branding icon YouTube Music'"
-included-patches = "'Custom package name'"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
-arch = "both"
+rv-brand = "ReVanced eXtended"
 
-[YouTube-Extended]
-app-name = "YouTube"
-enable = true
-version = "auto"
-include-stock = true
-build-mode = "both"
-riplib = true
-patches-source = "inotia00/revanced-patches"
-integrations-source = "inotia00/revanced-integrations"
-cli-source = "inotia00/revanced-cli"
-rv-brand = "ReVanced Extended"
-excluded-patches = "'Custom branding name YouTube'"
-included-patches = "'Visual preferences icons' 'Custom branding icon YouTube' 'Custom package name' 'MaterialYou'"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
+# add 'enabled = false' for not patching a specific app or remove it from the config
+# see https://github.com/j-hc/revanced-magisk-module/blob/main/CONFIG.md for more detailed explanations
 
+# you can use rvmm-config-gen to generate a config
 
-[Photos-ReVanced]
-app-name = "Photos"
-patches-source = "ReVanced/revanced-patches"
-cli-source = "ReVanced/revanced-cli"
-rv-brand = "ReVanced"
+[YouTube]
+build-mode = "both"                                                   
+excluded-patches = ""                                                 
+included-patches = ""                                                 
+version = "auto"                                                      
+exclusive-patches = false                                             
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
+module-prop-name = "yt-rvx"
+
+[Music]
 build-mode = "both"
+app-name = "YouTube-Music"
 excluded-patches = ""
 included-patches = ""
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/photos"
+version = "auto"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
+module-prop-name = "ytm-rvx"
 arch = "both"
