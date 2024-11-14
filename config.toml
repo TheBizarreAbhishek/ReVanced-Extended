@@ -1,6 +1,14 @@
 enable-magisk-update = true   # set this to false if you do not want to receive updates for the module in magisk app
 
 
+[YouTube-Extended]
+app-name = "YouTube"
+patches-source = "inotia00/revanced-patches"
+cli-source = "inotia00/revanced-cli"
+rv-brand = "ReVanced-Extended"
+build-mode = "both"
+
+
 
 
 [Photos-ReVanced]
@@ -13,3 +21,4 @@ excluded-patches = ""
 included-patches = ""
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/photos"
 arch = "both"
+
