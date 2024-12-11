@@ -1,3 +1,7 @@
+enable-magisk-update = true # set this to false if you do not want to receive updates for the module in magisk app
+parallel-jobs = 1
+
+
 [YouTube]
 build-mode = "both"
 excluded-patches = ""
@@ -27,7 +31,6 @@ rv-brand = "ReVanced Extended"
 build-mode = "both"
 arch = "both"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
-# archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
 
 [YouTube-Extended]
 app-name = "YouTube"
