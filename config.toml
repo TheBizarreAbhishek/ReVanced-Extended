@@ -38,3 +38,18 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/photos"
 arch = "both"
 version = "auto"
 
+[YouTube ReVanced]
+build-mode = "both"
+excluded-patches = "'Custom branding name YouTube'"
+included-patches = "'Visual preferences icons' 'Custom branding icon YouTube' 'Custom package name' 'MaterialYou'"
+version = "auto"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
+uptodown-dlurl = "https://youtube.en.uptodown.com/android"
+
+[Music]
+build-mode = "both"
+arch = "both"
+excluded-patches = "'Custom branding name YouTube Music' 'Custom branding icon YouTube Music'"
+included-patches = "'Custom package name'"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
+uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
