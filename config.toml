@@ -49,6 +49,7 @@ build-mode = "both"
 excluded-patches = "'Custom branding name YouTube'"
 included-patches = "'Visual preferences icons' 'Custom branding icon YouTube' 'Custom package name' 'MaterialYou'"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
+uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 
 
 [Reddit-Extended]
