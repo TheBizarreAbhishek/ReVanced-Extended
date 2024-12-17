@@ -104,7 +104,7 @@ install() {
 			if echo "$op" | grep -q INSTALL_FAILED_VERSION_DOWNGRADE; then
 				ui_print "* Handling INSTALL_FAILED_VERSION_DOWNGRADE.."
 				if [ "$IS_SYS" = true ]; then
-					mkdir -p /data/adb/rvhc/empty /data/adb/post-fs-data.d
+					mkdir -p /data/adb/rvab/empty /data/adb/post-fs-data.d
 					SCNM="/data/adb/post-fs-data.d/$PKG_NAME-uninstall.sh"
 					echo "mount -o bind /data/adb/rvab/empty $BASEPATH" >"$SCNM"
 					chmod +x "$SCNM"
