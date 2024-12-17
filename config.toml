@@ -46,7 +46,7 @@ cli-source = "inotia00/revanced-cli"
 rv-brand = "ReVanced Extended"
 build-mode = "both"
 excluded-patches = ""
-included-patches = "'Custom Shorts action buttons', 'Custom branding icon for YouTube', 'Custom branding name for YouTube', 'Custom double tap length', 'Custom header for YouTube', 'Theme', 'Translations for YouTube', 'Visual preferences icons for YouTube', 'Overlay buttons', 'GmsCore support', 'Settings for YouTube', 'SponsorBlock'"
+included-patches = ""
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 
