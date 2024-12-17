@@ -2,7 +2,7 @@
 
 enable-magisk-update = true # set this to false if you do not want to receive updates for the module in magisk app
 parallel-jobs = 1
-
+compression-level = 9
 
 
 [YouTube]
