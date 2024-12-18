@@ -48,9 +48,9 @@ patches-source = "inotia00/revanced-patches"
 cli-source = "inotia00/revanced-cli"
 rv-brand = "ReVanced Extended"
 build-mode = "both"
-excluded-patches = """\ 
-    'Custom branding name for YouTube' \ 
-    'Custom branding icon for YouTube' \ 
+excluded-patches = """\
+    'Custom branding name for YouTube' \
+    'Custom branding icon for YouTube' \
     """
 included-patches = ""
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
