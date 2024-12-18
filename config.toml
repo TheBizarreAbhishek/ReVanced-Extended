@@ -33,7 +33,10 @@ patches-source = "inotia00/revanced-patches"
 cli-source = "inotia00/revanced-cli"
 rv-brand = "ReVanced Extended"
 build-mode = "both"
-excluded-patches = ""
+excluded-patches = """\
+    'Custom branding name for YouTube Music' \
+    'Custom branding icon for YouTube Music' \
+    """
 included-patches = ""
 arch = "both"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
@@ -45,7 +48,10 @@ patches-source = "inotia00/revanced-patches"
 cli-source = "inotia00/revanced-cli"
 rv-brand = "ReVanced Extended"
 build-mode = "both"
-excluded-patches = ""
+excluded-patches = """\ 
+    'Custom branding name for YouTube' \ 
+    'Custom branding icon for YouTube' \ 
+    """
 included-patches = ""
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
