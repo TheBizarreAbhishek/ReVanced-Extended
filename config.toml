@@ -57,36 +57,6 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 
 
-[YouTube-Anddea]
-app-name = "YouTube"
-patches-source = "anddea/revanced-patches"
-cli-source = "anddea/revanced-cli"
-rv-brand = "ReVanced Anddea"
-build-mode = "both"
-patches-version = "dev"
-excluded-patches = """\
-    'Custom branding name for YouTube' \
-    'Custom branding icon for YouTube' \
-    """
-included-patches = ""
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
-uptodown-dlurl = "https://youtube.en.uptodown.com/android"
-
-[Music-Anddea]
-app-name = "Music"
-patches-source = "anddea/revanced-patches"
-cli-source = "anddea/revanced-cli"
-rv-brand = "ReVanced Anddea"
-build-mode = "both"
-arch = "both"
-patches-version = "dev"
-excluded-patches = """\
-    'Custom branding name for YouTube Music' \
-    'Custom branding icon for YouTube Music' \
-    """
-included-patches = ""
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
-uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
 
 [Reddit-Extended]
 patches-source = "inotia00/revanced-patches"
