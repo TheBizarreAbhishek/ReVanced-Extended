@@ -27,6 +27,7 @@ version = "auto"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/photos/"
 uptodown-dlurl = "https://google-photos.en.uptodown.com/android"
 
+
 [Music-Extended]
 app-name = "Music"
 patches-source = "inotia00/revanced-patches"
@@ -40,6 +41,8 @@ excluded-patches = """\
 included-patches = ""
 arch = "both"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
+uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
+
 
 
 [YouTube-Extended]
@@ -57,10 +60,41 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 
 
+[YouTube-Anddea]
+app-name = "YouTube"
+patches-source = "anddea/revanced-patches"
+rv-brand = "ReVanced Anddea"
+cli-source = "inotia00/revanced-cli"
+patches-version = "dev"
+build-mode = "both"
+excluded-patches = """\
+    'Custom branding name for YouTube' \
+    'Custom branding icon for YouTube' \
+    """
+included-patches = ""
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
+uptodown-dlurl = "https://youtube.en.uptodown.com/android"
+
+
+[Music-Anddea]
+app-name = "Music"
+patches-source = "anddea/revanced-patches"
+rv-brand = "ReVanced Anddea"
+cli-source = "inotia00/revanced-cli"
+patches-version = "dev"
+build-mode = "both"
+excluded-patches = """\
+    'Custom branding name for YouTube Music' \
+    'Custom branding icon for YouTube Music' \
+    """
+included-patches = ""
+arch = "both"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
+uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
+
 
 [Reddit-Extended]
 patches-source = "inotia00/revanced-patches"
 cli-source = "inotia00/revanced-cli"
 rv-brand = "ReVanced Extended"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/redditinc/reddit/"
-
