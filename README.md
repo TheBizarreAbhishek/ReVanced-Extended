@@ -1,6 +1,7 @@
 # YouTube ReVanced-Extended
 This repo contain revanced extended apps/module
 Get the [latest CI release](https://github.com/TheBizarreAbhishek/ReVanced-Extended/releases/)
+
 [![CI](https://github.com/TheBizarreAbhishek/ReVanced-Extended/actions/workflows/ci.yml/badge.svg?event=schedule)](https://github.com/TheBizarreAbhishek/ReVanced-Extended/actions/workflows/ci.yml)
 
 # Features
