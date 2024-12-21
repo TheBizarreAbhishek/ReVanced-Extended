@@ -29,6 +29,7 @@ uptodown-dlurl = "https://google-photos.en.uptodown.com/android"
 
 
 [Music-Extended]
+enabled = false
 app-name = "Music"
 patches-source = "inotia00/revanced-patches"
 cli-source = "inotia00/revanced-cli"
@@ -46,6 +47,7 @@ uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
 
 
 [YouTube-Extended]
+enabled = false
 app-name = "YouTube"
 patches-source = "inotia00/revanced-patches"
 cli-source = "inotia00/revanced-cli"
@@ -94,6 +96,7 @@ uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
 
 
 [Reddit-Extended]
+enabled = false
 patches-source = "inotia00/revanced-patches"
 cli-source = "inotia00/revanced-cli"
 rv-brand = "ReVanced Extended"
