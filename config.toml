@@ -58,6 +58,7 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 
 [YouTube-Anddea]
+enabled = false
 app-name = "YouTube"
 patches-source = "anddea/revanced-patches"
 rv-brand = "ReVanced Anddea"
@@ -74,6 +75,7 @@ uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 
 
 [Music-Anddea]
+enabled = false
 app-name = "Music"
 patches-source = "anddea/revanced-patches"
 rv-brand = "ReVanced Anddea"
