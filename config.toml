@@ -93,6 +93,7 @@ uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
 
 
 [Reddit-Extended]
+app-name = "Reddit"
 patches-source = "inotia00/revanced-patches"
 cli-source = "inotia00/revanced-cli"
 rv-brand = "ReVanced Extended"
