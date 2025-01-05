@@ -133,7 +133,7 @@ for table_name in $(toml_get_table_names); do
 	table_name_f=${table_name,,}
 	table_name_f=${table_name_f// /-}
 	app_args[module_prop_name]=$(toml_get "$t" module-prop-name) || {
-		app_args[module_prop_name]="${table_name_f}-jhc"
+		app_args[module_prop_name]="${table_name_f}-ab"
 		if [ "${app_args[arch]}" = "arm64-v8a" ]; then
 			app_args[module_prop_name]="${app_args[module_prop_name]}-arm64"
 		elif [ "${app_args[arch]}" = "arm-v7a" ]; then
@@ -167,7 +167,7 @@ if [ -z "$(ls -A1 "${BUILD_DIR}")" ]; then abort "All builds failed."; fi
 
 log "\nInstall [Microg](https://github.com/ReVanced/GmsCore/releases) for non-root YouTube and YT Music APKs"
 log "Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) to detach root ReVanced YouTube and YT Music from Play Store"
-log "\n[revanced-magisk-module](https://github.com/TheBizarreAbhishek/ReVanced-Extended)\n"
+log "\n[Source](https://github.com/TheBizarreAbhishek/ReVanced-Extended)\n"
 log "$(cat "$TEMP_DIR"/*-rv/changelog.md)"
 
 SKIPPED=$(cat "$TEMP_DIR"/skipped 2>/dev/null || :)
