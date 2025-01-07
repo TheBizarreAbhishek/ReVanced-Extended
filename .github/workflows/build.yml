@@ -114,7 +114,7 @@ jobs:
         run: |
           cd build || { echo "build folder not found"; exit 1; }
 
-          TG_CHAT="@SamsungGalaxyM35"
+          TG_CHATS=("@SamsungGalaxyM35" "@SamsungM355G" "@thegreatbabaabhishek") # Add your group IDs here
           NL=$'\n'
           APKS=""
           MODULES=""
@@ -143,5 +143,9 @@ jobs:
           "
           echo "'$MSG'"
           MSG=${MSG:0:9450}
+
           POST="https://api.telegram.org/bot${TG_TOKEN}/sendMessage"
-          curl -X POST --data-urlencode "parse_mode=Markdown" --data-urlencode "disable_web_page_preview=true" --data-urlencode "text=${MSG}" --data-urlencode "chat_id=${TG_CHAT}" "$POST"
+
+          for TG_CHAT in "${TG_CHATS[@]}"; do
+            curl -X POST --data-urlencode "parse_mode=Markdown" --data-urlencode "disable_web_page_preview=true" --data-urlencode "text=${MSG}" --data-urlencode "chat_id=${TG_CHAT}" "$POST"
+          done
