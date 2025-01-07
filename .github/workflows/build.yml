@@ -114,7 +114,7 @@ jobs:
         run: |
           cd build || { echo "build folder not found"; exit 1; }
 
-          TG_CHATS=("@SamsungGalaxyM35" "@SamsungM355G" "@thegreatbabaabhishek") # Add your group IDs here
+          TG_CHATS=("@SamsungGalaxyM35" "@SamsungM355G") # Add your group IDs here
           NL=$'\n'
           APKS=""
           MODULES=""
