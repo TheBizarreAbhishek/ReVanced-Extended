@@ -1,6 +1,6 @@
 {
-  "version": "v19.47.53 (patches: 5.14.0)",
-  "versionCode": 26,
-  "zipUrl": "https://github.com/TheBizarreAbhishek/ReVanced-Extended/releases/download/26/youtube-revanced-magisk-v19.47.53-all.zip",
+  "version": "v19.47.53 (patches: 5.15.0)",
+  "versionCode": 28,
+  "zipUrl": "https://github.com/TheBizarreAbhishek/ReVanced-Extended/releases/download/28/youtube-revanced-magisk-v19.47.53-all.zip",
   "changelog": "https://raw.githubusercontent.com/TheBizarreAbhishek/ReVanced-Extended/update/build.md"
 }
