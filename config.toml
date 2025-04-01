@@ -59,13 +59,18 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 
 
+
 [Spotify]
 enabled = true
 app-name = "Spotify"
+included-patches = """\
+    'Unlock Spotify Premium' \
+    'Spoof signature' \
+    'Custom theme' \
+    """
 patches-source = "revanced/revanced-patches"
 cli-source = "revanced/revanced-cli"
 rv-brand = "ReVanced"
-included-patches = ""
 uptodown-dlurl = "https://spotify.en.uptodown.com/android"
 
 
