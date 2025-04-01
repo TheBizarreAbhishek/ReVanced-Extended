@@ -43,6 +43,7 @@ arch = "both"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
 
+
 [YouTube-Extended]
 app-name = "YouTube"
 patches-source = "inotia00/revanced-patches"
@@ -56,6 +57,18 @@ excluded-patches = """\
 included-patches = ""
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
+
+
+[Spotify]
+enabled = true
+app-name = "Spotify"
+patches-source = "revanced/revanced-patches"
+cli-source = "revanced/revanced-cli"
+rv-brand = "ReVanced"
+build-mode = "both"
+uptodown-dlurl = "https://spotify.en.uptodown.com/android"
+
+
 
 [YouTube-Anddea]
 enabled = false
