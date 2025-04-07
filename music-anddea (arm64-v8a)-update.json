@@ -1,6 +1,6 @@
 {
-  "version": "v7.16.53 (12)",
-  "versionCode": 12,
-  "zipUrl": "https://github.com/TheBizarreAbhishek/ReVanced-Extended/releases/download/12/music-revanced-anddea-magisk-v7.16.53-arm64-v8a.zip",
+  "version": "v8.05.51 (patches: dev.8)",
+  "versionCode": 35,
+  "zipUrl": "https://github.com/TheBizarreAbhishek/ReVanced-Extended/releases/download/35/music-revanced-anddea-magisk-v8.05.51-arm64-v8a.zip",
   "changelog": "https://raw.githubusercontent.com/TheBizarreAbhishek/ReVanced-Extended/update/build.md"
 }
