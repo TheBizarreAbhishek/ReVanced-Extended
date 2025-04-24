@@ -77,7 +77,7 @@ uptodown-dlurl = "https://spotify.en.uptodown.com/android"
 
 
 [YouTube-Anddea]
-enabled = true
+enabled = false
 app-name = "YouTube"
 patches-source = "anddea/revanced-patches"
 rv-brand = "ReVanced Anddea"
@@ -94,7 +94,7 @@ uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 
 
 [Music-Anddea]
-enabled = true
+enabled = false
 app-name = "Music"
 patches-source = "anddea/revanced-patches"
 rv-brand = "ReVanced Anddea"
