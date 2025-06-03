@@ -19,7 +19,6 @@ arch = "both"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
 
-
 [GooglePhotos]
 build-mode = "both"
 arch = "both"
@@ -63,7 +62,7 @@ uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 [Spotify]
 enabled = true
 app-name = "Spotify"
-arch = "both"
+arch = ""
 included-patches = """\
     'Unlock Spotify Premium' \
     'Spoof signature' \
