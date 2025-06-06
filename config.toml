@@ -62,7 +62,7 @@ uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 [Spotify]
 enabled = true
 app-name = "Spotify"
-arch = ""
+arch = "both"
 included-patches = """\
     'Unlock Spotify Premium' \
     'Spoof signature' \
