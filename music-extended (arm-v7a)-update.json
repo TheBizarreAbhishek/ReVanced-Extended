@@ -1,6 +1,6 @@
 {
-  "version": "v8.12.53 (patches 5.8.1)",
-  "versionCode": 74,
-  "zipUrl": "https://github.com/TheBizarreAbhishek/ReVanced-Extended/releases/download/74/music-revanced-extended-magisk-v8.12.53-arm-v7a.zip",
+  "version": "v8.12.53 (patches 5.9.1)",
+  "versionCode": 79,
+  "zipUrl": "https://github.com/TheBizarreAbhishek/ReVanced-Extended/releases/download/79/music-revanced-extended-magisk-v8.12.53-arm-v7a.zip",
   "changelog": "https://raw.githubusercontent.com/TheBizarreAbhishek/ReVanced-Extended/update/build.md"
 }
