@@ -121,11 +121,11 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/redditinc/reddit/"
 uptodown-dlurl = "https://reddit-official-app.en.uptodown.com/android"
 
 [Twitter-X]
-enabled = true
+enabled = false
 app-name = "X"
 patches-source = "crimera/piko"
 cli-source = "revanced/revanced-cli"
-# cli-version = "v4.6.0"
+cli-version = "v4.6.0"
 rv-brand = "Bizarre X"
 build-mode = "both"
 arch = ""
