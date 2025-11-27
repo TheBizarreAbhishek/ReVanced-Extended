@@ -60,17 +60,18 @@ uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 
 
 [Spotify]
-enabled = false
+enabled = true
 app-name = "Spotify"
 arch = "both"
+patches-version = "dev"
 included-patches = """\
     'Unlock Spotify Premium' \
     'Spoof signature' \
     'Custom theme' \
     """
-patches-source = "revanced/revanced-patches"
+patches-source = "anddea/revanced-patches"
 cli-source = "revanced/revanced-cli"
-rv-brand = "ReVanced"
+rv-brand = "anddea"
 uptodown-dlurl = "https://spotify.en.uptodown.com/android"
 
 
