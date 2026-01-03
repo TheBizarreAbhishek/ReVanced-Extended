@@ -59,7 +59,12 @@ get_rv_prebuilts() {
 			ext="jar"
 			local grab_cl=false
 		elif [ "$tag" = "Patches" ]; then
-			ext="rvp"
+			# Support both .rvp (ReVanced) and .mpp (Morphe) patch files
+			if [[ "$src" == *"MorpheApp"* ]]; then
+				ext="mpp"
+			else
+				ext="rvp"
+			fi
 			local grab_cl=true
 		else abort unreachable; fi
 		local dir=${src%/*}
@@ -160,8 +165,10 @@ config_update() {
 			else
 				last_patches=$(gh_req "$rv_rel/tags/${ver}" -)
 			fi
-			if ! last_patches=$(jq -e -r '.assets[] | select(.name | endswith("rvp")) | .name' <<<"$last_patches"); then
-				abort oops
+			# Support both .rvp (ReVanced) and .mpp (Morphe) patch files
+			if ! last_patches=$(jq -e -r '.assets[] | select(.name | endswith("rvp") or .name | endswith("mpp")) | .name' <<<"$last_patches"); then
+				epr "No .rvp or .mpp patch file found for $PATCHES_SRC"
+				continue
 			fi
 			if [ "$last_patches" ]; then
 				if ! OP=$(grep "^Patches: ${PATCHES_SRC%%/*}/" build.md | grep "$last_patches"); then
@@ -625,7 +632,7 @@ build_rv() {
 		module_prop \
 			"${args[module_prop_name]}" \
 			"${app_name} ${args[rv_brand]}" \
-			"${version} (patches ${rv_patches_ver%%.rvp})" \
+			"${version} (patches ${rv_patches_ver%%.*pp})" \
 			"${app_name} ${args[rv_brand]} Magisk module" \
 			"https://raw.githubusercontent.com/${GITHUB_REPOSITORY-}/update/${upj}" \
 			"$base_template"
