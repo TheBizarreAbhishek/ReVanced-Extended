@@ -166,7 +166,7 @@ config_update() {
 				last_patches=$(gh_req "$rv_rel/tags/${ver}" -)
 			fi
 			# Support both .rvp (ReVanced) and .mpp (Morphe) patch files
-			if ! last_patches=$(jq -e -r '.assets[] | select(.name | endswith("rvp") or .name | endswith("mpp")) | .name' <<<"$last_patches"); then
+			if ! last_patches=$(jq -e -r '[.assets[] | select(.name | endswith("rvp") or endswith("mpp"))] | first | .name' <<<"$last_patches"); then
 				epr "No .rvp or .mpp patch file found for $PATCHES_SRC"
 				continue
 			fi
