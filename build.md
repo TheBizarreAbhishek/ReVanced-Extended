@@ -12,4 +12,4 @@ Patches: anddea/patches-3.16.0-dev.2.rvp 
 
 Skipped:  
 Patches: ReVanced/patches-5.48.0.rvp            
-Patches: MorpheApp/patches-1.12.0.mpp      
+Patches: MorpheApp/patches-1.12.0.mpp        
