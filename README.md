@@ -23,6 +23,55 @@ Get the [latest CI release](https://github.com/TheBizarreAbhishek/ReVanced-Exten
 # Credits
 [j-hc](https://github.com/j-hc) for [zygisk-detach](https://github.com/j-hc/zygisk-detach) and the [script on which this is based on](https://github.com/j-hc/revanced-magisk-module).
 
+<<<<<<< HEAD
 [ReVanced Team](https://github.com/revanced) for [MicroG](https://github.com/ReVanced/GmsCore/releases).
 
 [inotia00](https://github.com/inotia00) for [revanced-extended patches](https://github.com/inotia00/revanced-patches).
+=======
+<details><summary><big>Features</big></summary>
+<ul>
+ <li> Supports all present and future ReVanced apps (including projects implementing the same API)</li>
+ <li> Can build Magisk modules and non-root APKs</li>
+ <li> Updated daily with the latest versions of apps and patches</li>
+ <li> Optimizes APKs and modules for size</li>
+ <li> Modules</li>
+    <ul>
+     <li> recompile invalidated odex for faster usage</li>
+     <li> receive updates from Magisk app</li>
+     <li> do not break safetynet or trigger root detections</li>
+     <li> handle installation of the correct version of the stock app and all that</li>
+     <li> support Magisk and KernelSU</li>
+    </ul>
+</ul>
+</details>
+
+## To include/exclude patches or patch other apps
+
+ * Star the repo :eyes:
+ * Use the repo as a [template](https://github.com/new?template_name=revanced-magisk-module&template_owner=j-hc)
+ * Customize [`config.toml`](./config.toml) using [rvmm-config-gen](https://j-hc.github.io/rvmm-config-gen/)
+ * Run the build [workflow](../../actions/workflows/build.yml)
+ * Grab your modules and APKs from [releases](../../releases)
+
+also see here [`CONFIG.md`](./CONFIG.md)
+
+## If you are having trouble with the classic mount method of the modules
+such as,
+- **"Reflash needed"** error after reboots
+- **"Suspicious mount detected"** warnings from root detector apps
+
+You can consider using [rvmm-zygisk-mount](https://github.com/j-hc/rvmm-zygisk-mount)
+
+## Building Locally
+### On Termux
+```console
+bash <(curl -sSf https://raw.githubusercontent.com/j-hc/revanced-magisk-module/main/build-termux.sh)
+```
+
+### On Linux
+```console
+$ git clone https://github.com/j-hc/revanced-magisk-module --depth 1
+$ cd revanced-magisk-module
+$ ./build.sh
+```
+>>>>>>> upstream/main
