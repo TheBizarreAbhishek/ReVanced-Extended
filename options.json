@@ -1,0 +1,162 @@
+[
+  {
+    "patchName": "Custom Shorts action buttons",
+    "options": [
+      {
+        "key": "iconType",
+        "value": "cairo"
+      }
+    ]
+  },
+  {
+    "patchName": "Custom branding icon for YouTube",
+    "options": [
+      {
+        "key": "appIcon",
+        "value": "youtube"
+      },
+      {
+        "key": "changeSplashIcon",
+        "value": true
+      },
+      {
+        "key": "restoreOldSplashAnimation",
+        "value": true
+      }
+    ]
+  },
+  {
+    "patchName": "Custom branding name for YouTube",
+    "options": [
+      {
+        "key": "appName",
+        "value": "YouTube"
+      }
+    ]
+  },
+  {
+    "patchName": "Custom double tap length",
+    "options": [
+      {
+        "key": "doubleTapLengthArrays",
+        "value": "3, 5, 10, 15, 20, 30, 60, 120, 180"
+      }
+    ]
+  },
+  {
+    "patchName": "Custom header for YouTube",
+    "options": [
+      {
+        "key": "customHeader",
+        "value": "Custom Value"
+      }
+    ]
+  },
+  {
+    "patchName": "Theme",
+    "options": [
+      {
+        "key": "darkThemeBackgroundColor",
+        "value": "@android:color/black"
+      },
+      {
+        "key": "lightThemeBackgroundColor",
+        "value": "@android:color/white"
+      }
+    ]
+  },
+  {
+    "patchName": "Translations for YouTube",
+    "options": [
+      {
+        "key": "customTranslations",
+        "value": null
+      },
+      {
+        "key": "selectedTranslations",
+        "value": "ar, bg-rBG, de-rDE, el-rGR, es-rES, fr-rFR, hu-rHU, it-rIT, ja-rJP, ko-rKR, pl-rPL, pt-rBR, ru-rRU, tr-rTR, uk-rUA, vi-rVN, zh-rCN, zh-rTW"
+      },
+      {
+        "key": "selectedStringResources",
+        "value": "af, am, ar, ar-rXB, as, az, b+es+419, b+sr+Latn, be, bg, bn, bs, ca, cs, da, de, el, en-rAU, en-rCA, en-rGB, en-rIN, en-rXA, en-rXC, es, es-rUS, et, eu, fa, fi, fr, fr-rCA, gl, gu, hi, hr, hu, hy, id, in, is, it, iw, ja, ka, kk, km, kn, ko, ky, lo, lt, lv, mk, ml, mn, mr, ms, my, nb, ne, nl, no, or, pa, pl, pt, pt-rBR, pt-rPT, ro, ru, si, sk, sl, sq, sr, sv, sw, ta, te, th, tl, tr, uk, ur, uz, vi, zh, zh-rCN, zh-rHK, zh-rTW, zu"
+      }
+    ]
+  },
+  {
+    "patchName": "Visual preferences icons for YouTube",
+    "options": [
+      {
+        "key": "settingsMenuIcon",
+        "value": "extension"
+      },
+      {
+        "key": "applyToAll",
+        "value": false
+      }
+    ]
+  },
+  {
+    "patchName": "Overlay buttons",
+    "options": [
+      {
+        "key": "iconType",
+        "value": "bold"
+      },
+      {
+        "key": "bottomMargin",
+        "value": "2.5dip"
+      },
+      {
+        "key": "widerButtonsSpace",
+        "value": false
+      },
+      {
+        "key": "changeTopButtons",
+        "value": false
+      }
+    ]
+  },
+  {
+    "patchName": "GmsCore support",
+    "options": [
+      {
+        "key": "gmsCoreVendorGroupId",
+        "value": "app.revanced"
+      },
+      {
+        "key": "checkGmsCore",
+        "value": true
+      },
+      {
+        "key": "packageNameYouTube",
+        "value": "yt.thebizarreabhishek.rvx"
+      },
+      {
+        "key": "packageNameYouTubeMusic",
+        "value": "ytm.thebizarreabhishek.rvx"
+      }
+    ]
+  },
+  {
+    "patchName": "Settings for YouTube",
+    "options": [
+      {
+        "key": "insertPosition",
+        "value": "@string/about_key"
+      },
+      {
+        "key": "settingsLabel",
+        "value": "ReVanced Extended"
+      }
+    ]
+  },
+  {
+    "patchName": "SponsorBlock",
+    "options": [
+      {
+        "key": "outlineIcon",
+        "value": false
+      }
+    ]
+  }
+]
